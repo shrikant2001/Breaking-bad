@@ -16,7 +16,7 @@ const Search = () => {
     let {isLoggedIn} = true;
 
     const showList = () => {
-      if (query === '') {
+      if (query === '') {   //incase search bar is empty show all characters
         return (
             <div className="list">
                 {List.map((c) => {
@@ -26,7 +26,7 @@ const Search = () => {
                 })}
             </div>
         )
-      } else {
+      } else {  // show the charcters whose name matches with the query
         let newList = List.filter(char => char.name.toLowerCase().includes(query)  )
         return (
             <div className="list">
