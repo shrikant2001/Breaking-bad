@@ -1,0 +1,48 @@
+@media only screen and (min-width: 375px) {
+    .char-container {
+        margin: 4px 2px;
+    }
+    .char-img {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .char-container {
+        margin: 40px 200px;
+    }
+    .char-img {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+.char-container {
+    background-color: rgb(173, 173, 173);
+    border: solid rgb(30, 30, 30) 2px;
+    padding: 5px;
+}
+
+.char-img {
+    overflow: hidden;
+    object-fit: contain;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    border: solid rgb(228, 239, 27) 2px;
+}
+
+.char-name {
+    color: rgb(228, 239, 27);
+}
+
+.char-details {
+    flex: 5;
+    background-color: rgb(18, 81, 8);
+}
+
+.azure-text {
+    color: azure;
+}
