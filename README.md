@@ -1,4 +1,4 @@
-# Inkredo-assignment
+
  
 Technologies used : ReactJS, redux-toolkit, Axios, JSX.
 
